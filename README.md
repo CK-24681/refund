@@ -1,8 +1,8 @@
-# 💸 Refund - Sistema de Solicitação de Reembolso
+# Refund - Sistema de Solicitação de Reembolso
 
 Um aplicativo web desenvolvido para gerenciar e calcular solicitações de reembolso de despesas. O sistema permite ao usuário adicionar novas despesas, categorizá-las e visualizar uma lista dinâmica com o total acumulado calculado em tempo real.
 
-## 💻 Prévia do Projeto
+## Prévia do Projeto
 
 ![Preview do Projeto funcionando](./img/{F0182044-E8EE-49C9-ACBB-4A306477BC15}.png)
 
