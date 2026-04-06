@@ -5,7 +5,7 @@ Um aplicativo web desenvolvido para gerenciar e calcular solicitações de reemb
 ## 💻 Prévia do Projeto
 
 > **Nota:** Adicione aqui uma imagem ou GIF do seu projeto funcionando.
-> ./img/{F0182044-E8EE-49C9-ACBB-4A306477BC15}.png)
+> ./img/{F0182044-E8EE-49C9-ACBB-4A306477BC15}.png
 
 ## ✨ Funcionalidades
 
