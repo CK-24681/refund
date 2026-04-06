@@ -1,0 +1,36 @@
+# 💸 Refund - Sistema de Solicitação de Reembolso
+
+Um aplicativo web desenvolvido para gerenciar e calcular solicitações de reembolso de despesas. O sistema permite ao usuário adicionar novas despesas, categorizá-las e visualizar uma lista dinâmica com o total acumulado calculado em tempo real.
+
+## 💻 Prévia do Projeto
+
+> **Nota:** Adicione aqui uma imagem ou GIF do seu projeto funcionando.
+> `![Preview do Projeto](./img/{F0182044-E8EE-49C9-ACBB-4A306477BC15}.png)`
+
+## ✨ Funcionalidades
+
+- **Adição de Despesas:** Interface simples para cadastrar o nome da despesa, selecionar a categoria (Alimentação, Hospedagem, Serviços, Transporte ou Outros) e informar o valor.
+- **Formatação de Moeda Automática:** O campo de valor formata automaticamente os números digitados para o padrão de moeda brasileiro (BRL - R$) utilizando Regex e a API de Internacionalização do JS (`toLocaleString`).
+- **Lista Dinâmica (DOM):** As despesas cadastradas são renderizadas instantaneamente na tela sem necessidade de recarregar a página.
+- **Cálculo em Tempo Real:** Atualização automática do contador de despesas totais e soma dos valores sempre que um item é adicionado ou removido.
+- **Remoção de Itens:** Possibilidade de excluir uma despesa específica da lista clicando no ícone de lixeira, utilizando o conceito de *Event Delegation* para melhor performance.
+- **Design Responsivo:** Layout adaptável para dispositivos móveis, tablets e telas maiores.
+
+## 🚀 Tecnologias Utilizadas
+
+Este projeto foi desenvolvido utilizando tecnologias front-end puras (Vanilla):
+
+- **HTML5:** Estruturação semântica e acessibilidade.
+- **CSS3:** Estilização, Flexbox, customização de formulários e scrollbars, além de Media Queries para responsividade.
+- **JavaScript (ES6+):** - Manipulação avançada do DOM (`createElement`, `append`, `querySelector`).
+  - Tratamento de eventos (`onsubmit`, `oninput`, `addEventListener`).
+  - Expressões Regulares (Regex) para limpeza e formatação de strings de valores monetários.
+
+## 📂 Estrutura de Arquivos
+
+```bash
+├── img/                # Ícones e imagens do projeto em SVG
+├── index.html          # Estrutura principal da página
+├── scripts.js          # Lógica de negócio, formatação e manipulação do DOM
+├── styles.css          # Estilização global e responsividade
+└── README.md           # Documentação do projeto
